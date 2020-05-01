@@ -1,0 +1,186 @@
+{
+	"African":	{
+		"Ethiopian": {}
+		},
+	"American": {
+		"American (New)": {} ,
+		"American (Traditional)": {},
+		"Cajun/Creole": {},
+		"Diners": {},
+		"Soul Food": {},
+		"Steakhouses": {},
+		"Tex-Mex": {},
+		"Southern": {},
+		"Delis": {},
+		"Cheesesteaks": {},
+		"Barbeque": {}
+		},
+	"Asian":{
+		"Singaporean": {},
+		"Cantonese":{
+			"Hong Kong Style Cafe": {},
+			"Dim Sum": {}
+			},
+		"Cambodian": {},
+		"Chinese":{
+			"Taiwanese": {},
+			"Szechuan": {},
+			"Shanghainese": {},
+			"Hot Pot": {},
+			"Hainan": {}
+		},
+		"Filipino": {},
+		"Indonesian": {},
+		"Japanese": {
+			"Sushi": {},
+			"Conveyor Belt Sushi": {},
+			"Sushi Bars": {},
+			"Teppanyaki": {},
+			"Ramen Curry": {},
+			"Izakaya": {}
+			},
+		"Korean": {},
+		"Laotian": {},
+		"Mongolian": {},
+		"Noodles": {},
+		"Pan Asian": {},
+		"Asian Fusion": {},
+		"Polynesian": {
+			"Poke": {},
+			"Hawaiian": {}
+		},
+		"Vietnamese": {},
+		"Thai": {}
+		},
+	"Bakery": {
+		"Bagels": {},
+		"Bakeries": {},
+		"Gluten-Free": {}
+		},
+	"Bars": {
+		"Beer":{
+			"Beer Bar": {},
+			"Beer Gardens": {},
+			"Breweries": {}
+			},
+		"Wine & Spirits": {},
+		"Wine Bars": {},
+		"Wine Tasting Room": {},
+		"Cocktail Bars": {},
+		"Gastropubs": {},
+		"Gay Bars": {},
+		"Pubs": {
+			"Irish Pub": {},
+			"Dive Bars": {}
+			},
+		"Whiskey Bars": {},
+		"Sports Bars": {}
+		},
+	"Bebidas": {
+			"Juice Bars & Smoothies":{}
+		},
+	"Breakfast & Brunch": {
+		"Pancakes": {},
+		"Waffles": {}
+		},
+	"Chicken": {
+		"Chicken Shop": {},
+		"Chicken Wings": {}
+		},
+	"Coffee and Tea": {
+		"Bubble Tea": {},
+		"Cafes": {},
+		"Cafeteria": {},
+		"Coffee Roasteries": {},
+		"Tea Rooms": {},
+		"Themed Cafes": {}
+		},
+	"Desserts": {
+		"Acai Bowls": {},
+		"Chocolatiers & Shops": {},
+		"Cupcakes": {},
+		"Custom Cakes": {},
+		"Donuts": {},
+		"Ice Cream":{
+			"Ice Cream & Frozen Yogurt": {},
+			"Gelato": {},
+			"Shaved Ice": {},
+			"Shaved Snow": {}
+			},
+		"Macarons": {},
+		"Patisserie/Cake Shop": {}
+		},
+	"European":{
+		"German": {},
+		"Italian": {
+			"Pasta Shops":{}
+			},
+		"Modern European": {},
+		"Russian": {},
+		"Sardinian": {},
+		"Spanish": {
+			"Tapas/Small Plates": {}
+			},
+		"British": {
+			"Fish & Chips": {}
+			},
+		"French": {
+			"Brasseries": {},
+			"Creperies": {},
+			"Fondue": {}
+			}
+		},
+	"Fast Food": {
+		"Burgers": {},
+		"Sandwiches": {},
+		"Wraps": {},
+		"Pizza": {}
+		},
+	"Latin American": {
+		"Brazilian": {},
+		"Cuban": {},
+		"Empanadas": {},
+		"Honduran": {},
+		"Mexican": {
+			"Tacos": {},
+			"New Mexican Cuisine": {}
+			},
+		"Nicaraguan": {},
+		"Peruvian": {},
+		"Salvadoran": {},
+		"Caribbean": {}
+		},
+	"Mediterranean":{
+		"Armenian": {},
+		"Egyptian": {},
+		"Falafel": {},
+		"Greek": {},
+		"Halal": {},
+		"Kebab": {},
+		"Lebanese": {},
+		"Middle Eastern": {},
+		"Persian/Iranian": {},
+		"Turkish": {},
+		"Kosher": {}
+		},
+	"Other":{
+		"Seafood": {},
+		"Soup": {},
+		"Salad": {},
+		"Hookah Bars": {}
+		},
+	"Snacks": {
+		"Popcorn Shops": {},
+		"Pretzels": {}
+		},
+	"South Asian": {
+		"Bangladeshi": {},
+		"Himalayan/Nepalese": {},
+		"Indian": {},
+		"Pakistani": {}
+		},
+	"Vegan":{
+		"Live/Raw Food": {},
+		"Vegetarian": {}
+		}
+}

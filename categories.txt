@@ -1,0 +1,18 @@
+African	Ethiopian
+American	American (New)	American (Traditional)	Cajun/Creole	Diners	Soul Food	Steakhouses	Tex-Mex	Southern	Delis	Cheesesteaks	Barbeque
+Asian	Asian Fusion	Singaporean	Cantonese	Hong Kong Style Cafe	Dim Sum	Cambodian	Chinese	Taiwanese	Szechuan	Shanghainese	Hot Pot	Hainan	Sushi	Conveyor Belt Sushi	Filipino	Indonesian	Japanese	Japanese	Sushi Bars	Teppanyaki	Ramen Curry	Izakaya	Korean	Laotian	Mongolian	Noodles	Pan Asian	Poke	Hawaiian	Polynesian	Vietnamese	Thai
+Bakery	Bagels	Bakeries	Gluten-Free
+Bars	Beer Bar	Beer Gardens	Beer, Wine & Spirits	Breweries	Cocktail Bars	Dive Bars	Gastropubs	Gay Bars	Irish Pub	Pubs	Whiskey Bars	Wine Bars	Wine Tasting Room	Sports Bars
+Bebidas	Juice Bars & Smoothies
+Breakfast & Brunch	Pancakes	Waffles
+Chicken	Chicken Shop	Chicken Wings
+Coffee and Tea	Bubble Tea	Cafes	Cafeteria	Coffee Roasteries	Tea Rooms	Themed Cafes
+Desserts	Acai Bowls	Chocolatiers & Shops	Cupcakes	Custom Cakes	Donuts	Gelato	Ice Cream & Frozen Yogurt	Macarons	Patisserie/Cake Shop	Shaved Ice	Shaved Snow
+European	German	Italian	Pasta Shops	Modern European	Russian	Sardinian	Spanish	Tapas/Small Plates	British	Fish & Chips	French	Brasseries	Creperies	Fondue
+Fast Food	Burgers	Sandwiches	Wraps	Pizza
+Latin American	Brazilian	Cuban	Empanadas	Honduran	Mexican	Tacos	New Mexican Cuisine	Nicaraguan	Peruvian	Salvadoran	Caribbean
+Mediterranean	Armenian	Egyptian	Falafel	Greek	Halal	Kebab	Lebanese	Middle Eastern	Persian/Iranian	Turkish	Kosher
+Other Seafood	Soup	Salad	Hookah Bars
+Snacks	Popcorn Shops	Pretzels
+South Asian	Bangladeshi	Himalayan/Nepalese	Indian	Pakistani
+Vegan	Live/Raw Food	Vegetarian
