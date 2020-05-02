@@ -5,12 +5,13 @@ import numpy as np
 
 keywords = sys.argv[1:]
 
-with open('inspections.json') as fin:
+# inspections.json is a dict containing the same data as original tsv file if inspections
+with open('data/inspections.json') as fin:
 	insp = json.load(fin)
 
 allzips = list(set([a['FACILITY ZIP'].split('-')[0] for a in insp]))
 
-with open('la-zip-code-areas-2012.json') as fin:
+with open('data/la-zip-code-areas-2012.json') as fin:
 	data = json.load(fin)
 
 geozips = []
@@ -23,11 +24,10 @@ new_json = dict.fromkeys(['type','features'])
 new_json['type'] = 'FeatureCollection'
 new_json['features'] = geozips
 
-la_geo = 'data.json'
+la_geo = 'data/data.json'
 with open(la_geo,'w') as fout:
 	json.dump(new_json, fout, sort_keys=True, indent=4, separators=(',',': '))
 
-print(len(allzips))
 
 #Collate the data to plot
 table = {"count":{},"score":{}}
