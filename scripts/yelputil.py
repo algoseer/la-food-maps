@@ -1,9 +1,9 @@
 import requests
-import sys
+import sys, time
 from pprint import pprint
 import os
 
-api_key = os.environ('YELP_API_KEY')
+api_key = os.environ['YELP_API_KEY']
 
 def get_business_category(business_id):
 
@@ -14,20 +14,22 @@ def get_business_category(business_id):
 
 	return resp.json()
 
-def get_business_match(name, address):
+def get_business_match(name, address, city):
 
 	url = 'https://api.yelp.com/v3/businesses/matches'
 	headers = {'Authorization': 'Bearer %s' %api_key}
 
 	params = {'name': name,
 	'address1': address,
-	'city' : 'Los Angeles',
+	'city' : city,
 	'state' : 'CA',
 	'country' : 'US',
 	}
 
 	resp = requests.get(url=url, params=params, headers=headers)
 	
+	if "businesses" not in resp.json():
+		print(resp.json())
 	return resp.json()['businesses']
 
 if __name__ == '__main__':
@@ -37,12 +39,13 @@ if __name__ == '__main__':
 
 		name = line[4]
 		address = line[10]
+		city = line[14]
 
-		resp = get_business_match(name, address)
+		resp = get_business_match(name, address, city)
 		if not resp:
 			continue
 		business_id = resp[0]['id']
 		cat = get_business_category(business_id)
 		pprint(cat["name"])
-		pprint(cat["categories"])
+		pprint(cat)
 
