@@ -27,6 +27,7 @@ Rearranges inspections data by restaurants aggregating multiple inspections at t
 This will be used to query the Yelp Fusion API.
 
 **3_collate_by_zipcode.py**
+
 Averages data at the zipcode level for plotting.
 
 
