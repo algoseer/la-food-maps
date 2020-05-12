@@ -33,7 +33,7 @@ Averages data at the zipcode level for plotting.
 
 **4_get_restaurant_details.py**
 
-Downloads restaurant data from Yelp Fusion API. These can be used to create 
+Downloads restaurant data from Yelp Fusion API. These can be used to create zipcode level restaurant maps.
 
 **5_plot_zipcode_catgories.py**
 
