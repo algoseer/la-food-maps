@@ -2,8 +2,8 @@ Goal : To plot a zipcode level map of restaurant cuisines in LA
 
 ### Data sources
 
-* LA county restaurant and market inspections [link] (https://data.lacounty.gov/Health/LOS-ANGELES-COUNTY-RESTAURANT-AND-MARKET-INSPECTIO/6ni6-h5kp)
-* Zipcode boundaries from LAtimes crime data [link] (https://confcats-event-sessions.s3.amazonaws.com/icassp20/videos/1132-1132-20200415-000000-20200415-000000.mp4
+* LA county restaurant and market inspections [link](https://data.lacounty.gov/Health/LOS-ANGELES-COUNTY-RESTAURANT-AND-MARKET-INSPECTIO/6ni6-h5kp)
+* Zipcode boundaries from LAtimes crime data [link](https://confcats-event-sessions.s3.amazonaws.com/icassp20/videos/1132-1132-20200415-000000-20200415-000000.mp4
 )
 * Restaurant data from Yelp [API] (https://www.yelp.com/fusion)
 
