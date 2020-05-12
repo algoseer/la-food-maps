@@ -16,16 +16,22 @@ allzips = list(cats.keys())
 
 #Map down the restaurants in the reduced number of categories
 table = {}
+prices = {}
+ratings = {}
 cuisine_maps ={}
 cuisine_all ={}
 for z in allzips:	
-	cats_this_zip = cats[z]['all']
+	cats_this_zip = cats[z]['cat']
+	prices_this_zip = cats[z]['prices']
+	ratings_this_zip = cats[z]['ratings']
 	count=np.zeros(len(red_cats))
 	
 	for i,cl in enumerate(red_cats):
 		cnt = sum([cats_this_zip[a] for a in cats_this_zip if a in cl])
 		count[i]+=cnt
 	table[z] = count.argmax()
+	prices[z] = np.mean(prices_this_zip)
+	ratings[z] = np.mean(ratings_this_zip)
 	cuisine_maps[z] = red_cats[count.argmax()][0]
 	cuisine_all[z] = {k[0]:count[i] for i,k in enumerate(red_cats)}
 
@@ -55,6 +61,27 @@ with open(la_geo,'w') as fout:
 		
 
 m = folium.Map(location = [34.0522, -118.2437], zoom_start = 11)
+
+
+folium.Choropleth(geo_data = la_geo,
+	fill_opacity = 0.7,
+	line_opactiy = 0.2,
+	name="Prices",
+	data = prices,
+	key_on = 'feature.properties.name',
+	fill_color = 'RdYlGn'
+	).add_to(m)
+
+
+folium.Choropleth(geo_data = la_geo,
+	fill_opacity = 0.7,
+	line_opactiy = 0.2,
+	name="Ratings",
+	data = ratings,
+	key_on = 'feature.properties.name',
+	fill_color = 'RdYlGn'
+	).add_to(m)
+
 cuisine  = folium.Choropleth(geo_data = la_geo,
 		fill_opacity = 0.7,
 		line_opactiy = 0.2,
